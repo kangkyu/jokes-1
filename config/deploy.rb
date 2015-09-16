@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :rvm_ruby_version, '2.2.2@jokes'
-
+set :branch, 'feature/deploy'
 set :application, 'jokes'
 set :repo_url, 'git@github.com:charliemcelfresh/jokes.git'
 
