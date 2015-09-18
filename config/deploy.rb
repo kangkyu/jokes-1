@@ -1,10 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :rvm_ruby_version, '2.2.2@jokes'
+set :rvm_ruby_version, '2.2.2@jokes-1'
 set :branch, 'feature/deploy'
-set :application, 'jokes'
-set :repo_url, 'git@github.com:charliemcelfresh/jokes.git'
+set :application, 'jokes-1'
+set :repo_url, 'git@github.com:kangkyu/jokes-1.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
